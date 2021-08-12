@@ -1,4 +1,4 @@
-y = open("C:\\Users\\elifh\\OneDrive\\Masaüstü\\test_output.txt", "w")
+y = open("test_output.txt", "w")
 
 import queue
 
@@ -38,7 +38,7 @@ def shunt(file):
 
 
             
-        f = open("C:\\Users\\elifh\\OneDrive\\Masaüstü\\test_output.txt", "a")
+        f = open("test_output.txt", "a")
         x = list(q.queue)
         for element in x:
             f.write(element + " ")
